@@ -5,3 +5,9 @@
     <li><h2><a href="https://luoxuhai.github.io/2019">2019届</a></h2></li>
   </ul>
 </nav>
+
+<style>
+.site-footer {
+    display: hidden;
+  }
+</style>
