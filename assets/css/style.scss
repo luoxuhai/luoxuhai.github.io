@@ -8,8 +8,6 @@
   display: none;
 }
 
-
-
 .footer {
   text-align: center;
   padding-top: 20px;
@@ -26,6 +24,12 @@
 
 .nav {
   flex: 1;
+}
+
+.nav li a {
+  margin-bottom: 1rem;
+  font-weight: normal;
+  color: #159957;
 }
 
 @media screen and (max-width: 42em) {
