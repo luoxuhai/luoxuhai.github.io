@@ -34,19 +34,19 @@
 
 @media screen and (max-width: 42em) {
   .main-content {
-    min-height: calc(100vh - 175.27px);
+    min-height: calc(100vh - 138px);
   }
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .main-content {
-    min-height: calc(100vh - 224.27px);
+    min-height: calc(100vh - 182px);
   }
 }
 
 @media screen and (min-width: 64em){
   .main-content {
-    min-height: calc(100vh - 316.59px);
+    min-height: calc(100vh - 270px);
   }
 }
 
