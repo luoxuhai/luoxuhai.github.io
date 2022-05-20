@@ -8,6 +8,7 @@ url: https://luoxuhai.github.io
 # Optional settings
 
 about_enabled: true # Change to true if you wish to show an icon in the navigation that redirects to the about page
+ga_analytics: G-DVFXST9R5N # Add your GA Tracking Id
 local_fonts: false # Change to true if you wish to use local fonts
 rss_enabled: false # Change to false if not
 scrollappear_enabled: true # Change to false to disable
