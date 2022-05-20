@@ -1,4 +1,0 @@
----
-slug: swiftui
-name: SwiftUI
----

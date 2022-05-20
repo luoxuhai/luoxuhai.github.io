@@ -1,20 +1,18 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ page.path | absolute_url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>Darkce</title>
+    <description></description>
+    <link>https://luoxuhai.github.io</link>
+    <atom:link href="https://luoxuhai.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.description | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        <title>推荐使用的 React Native 第三方库，持续更新！</title>
+        <description>以下第三方库都是作者我在项目中使用过的，GitHub Star 基本都在 1k 以上且维护积极。全网最全，持续更新，建议收藏！</description>
+        <pubDate>Thu, 19 May 2022 00:00:00 +0800</pubDate>
+        <link>https://luoxuhai.github.io/posts/react-native-library</link>
+        <guid isPermaLink="true">https://luoxuhai.github.io/posts/react-native-library</guid>
       </item>
-    {% endfor %}
+    
   </channel>
 </rss>
